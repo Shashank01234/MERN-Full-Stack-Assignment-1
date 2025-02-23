@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            display: flex;
+            gap: 100px;
+        }
+        .form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            width: 400px;
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        label {
+            width: 120px;
+            margin-right: 20px;
+            text-align: right;
+        }
+        input[type="text"], input[type="password"], select {
+            flex: 1;
+            padding: 5px;
+        }
+        .btn {
+            margin-top: 15px;
+            padding: 5px 10px;
+            width: 15%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><u>Task-4</u></h1>
+    <div class="form-container">
+        <div class="form">
+            <form>
+                <div class="form-group">
+                    <label>Full Name:</label>
+                    <input type="text" name="fullname" value="Vincent Maverick Durano">
+                </div>
+                <div class="form-group">
+                    <label>Username:</label>
+                    <input type="text" name="username" value="Vinz">
+                </div>
+                <div class="form-group">
+                    <label>Password:</label>
+                    <input type="password" name="password" value="password">
+                </div>
+                <div class="form-group">
+                    <label>Re Password:</label>
+                    <input type="password" name="repassword" value="password">
+                </div>
+                <div class="form-group">
+                    <label>Address:</label>
+                    <input type="text" name="address" value="Cebu, Philippines">
+                </div>
+                <div class="form-group">
+                    <label>Age:</label>
+                    <input type="text" name="age" value="22">
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <select name="gender">
+                        <option value="male" selected>Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <button class="btn">Save</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
